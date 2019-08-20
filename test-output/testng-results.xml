@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="FREE CRM Application Test Automation Test Suite" duration-ms="18651" started-at="2019-08-16T02:52:15Z" finished-at="2019-08-16T02:52:34Z">
+    <groups>
+    </groups>
+    <test name="Goquo" duration-ms="18651" started-at="2019-08-16T02:52:15Z" finished-at="2019-08-16T02:52:34Z">
+      <class name="com.goquo.qa.testcases.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.goquo.qa.testcases.HomePageTest@3532ec19]" name="setUp" is-config="true" duration-ms="9654" started-at="2019-08-16T10:52:15Z" finished-at="2019-08-16T10:52:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:1, instance:com.goquo.qa.testcases.HomePageTest@3532ec19]" name="verifyHomePageTitleTest" duration-ms="43" started-at="2019-08-16T10:52:25Z" finished-at="2019-08-16T10:52:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.goquo.qa.testcases.HomePageTest@3532ec19]" name="setUp" is-config="true" duration-ms="6957" started-at="2019-08-16T10:52:25Z" finished-at="2019-08-16T10:52:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchterm()[pri:2, instance:com.goquo.qa.testcases.HomePageTest@3532ec19]" name="searchterm" duration-ms="1968" started-at="2019-08-16T10:52:32Z" finished-at="2019-08-16T10:52:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchterm -->
+      </class> <!-- com.goquo.qa.testcases.HomePageTest -->
+    </test> <!-- Goquo -->
+  </suite> <!-- FREE CRM Application Test Automation Test Suite -->
+</testng-results>
