@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [FREE CRM Application Test Automation Test Suite]">
-  <listeners>
-    <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
-  </listeners>
-  <test name="Goquo(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test verbose="2" name="Default test">
     <classes>
-      <class name="com.goquo.qa.testcases.LoginPageTest">
+      <class name="com.goquo.qa.testcases.FlightHotelTest">
         <methods>
-          <include name="loginPageTitleTest"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.goquo.qa.testcases.LoginPageTest -->
+      </class> <!-- com.goquo.qa.testcases.FlightHotelTest -->
     </classes>
-  </test> <!-- Goquo(failed) -->
-</suite> <!-- Failed suite [FREE CRM Application Test Automation Test Suite] -->
+  </test> <!-- Default test -->
+</suite> <!-- Failed suite [Default suite] -->

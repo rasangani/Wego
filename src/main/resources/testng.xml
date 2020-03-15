@@ -9,7 +9,7 @@
 
 	<test name="Goquo">
 		<classes>
-			<class name="com.goquo.qa.testcases.LoginPageTest"></class>
+			<class name="com.goquo.qa.testcases.FlightHotelTest"></class>
 		</classes>
 	</test>
 </suite>

@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+  <test verbose="2" name="Default test">
     <classes>
-      <class name="com.crm.qa.testcases.FreeCrmTest">
+      <class name="com.goquo.qa.testcases.FlightHotelTest">
         <methods>
           <include name="setUp"/>
-          <include name="freeCrmTitleTest"/>
         </methods>
-      </class> <!-- com.crm.qa.testcases.FreeCrmTest -->
+      </class> <!-- com.goquo.qa.testcases.FlightHotelTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
+  </test> <!-- Default test -->
 </suite> <!-- Failed suite [Default suite] -->

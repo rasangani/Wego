@@ -4,14 +4,23 @@
   <listeners>
     <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
   </listeners>
+  <test name="Goquo">
+    <classes>
+      <class name="com.goquo.qa.testcases.FlightHotelTest"/>
+    </classes>
+  </test> <!-- Goquo -->
   <test name="Goquo(failed)">
     <classes>
-      <class name="com.goquo.qa.testcases.LoginPageTest">
+      <class name="com.goquo.qa.testcases.FlightHotelTest">
         <methods>
-          <include name="loginPageTitleTest"/>
           <include name="setUp"/>
+          <include name="VerifyPriceFunctionality"/>
+          <include name="VerifyReturnFlightChangeTimeFunctionality"/>
+          <include name="VerifyDepartureFlightChangeTimeFunctionality"/>
+          <include name="VerifyFlightHotelBookingFlow"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.goquo.qa.testcases.LoginPageTest -->
+      </class> <!-- com.goquo.qa.testcases.FlightHotelTest -->
     </classes>
   </test> <!-- Goquo(failed) -->
 </suite> <!-- Failed suite [FREE CRM Application Test Automation Test Suite] -->

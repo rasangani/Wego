@@ -8,7 +8,7 @@
 
 	<test name="Goquo">
 		<classes>
-			<class name="com.goquo.qa.testcases.HomePageTest"></class>
+			<class name="com.goquo.qa.testcases.FlightHotelTest"></class>
 		</classes>
 	</test>
 </suite>
